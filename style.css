@@ -87,3 +87,10 @@ header {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
   color: var(--third-color);
 }
+/* Wrapper */
+.wrapper {
+  padding: 15px 50px;
+  max-width: 1500px;
+  margin: 0 auto;
+  background-color: rgb(237, 238, 246);
+}
