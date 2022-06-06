@@ -171,3 +171,30 @@ header {
   opacity: 1;
   transition: 0.5s;
 }
+
+/* Contact Section */
+
+.contact-wrapper {
+  display: flex;
+  width: 100%;
+}
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+}
+.contact-content li {
+  margin-bottom: 5px;
+}
+.contact-content li a {
+  text-decoration: none;
+  color: var(--third-color);
+  padding: 0px 10px;
+  border-bottom: 4px solid var(--secondary-color);
+  font-size: large;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
