@@ -94,3 +94,31 @@ header {
   margin: 0 auto;
   background-color: rgb(237, 238, 246);
 }
+
+/* About Me Section */
+.content-container {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.section-title {
+  width: 150px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 15px;
+}
+.section-title h3 {
+  color: var(--secondary-color);
+  font-size: 30px;
+  text-align: end;
+}
+.content {
+  border-left: 5px solid var(--secondary-color);
+  padding: 15px 40px;
+}
+.bio {
+  color: var(--secondary-color);
+  font-size: medium;
+  padding-bottom: 15px;
+}
