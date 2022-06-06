@@ -12,3 +12,48 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   background-color: rgb(237, 237, 246);
 }
+
+/* Header Section */
+header {
+  background-color: var(--third-color);
+}
+.inner-header {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.title {
+  background-color: var(--primary-color);
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+}
+.title p a {
+  text-decoration: none;
+  color: var(--third-color);
+  font-size: 45px;
+  font-weight: bold;
+}
+.nav {
+  display: flex;
+}
+.nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 400px;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: var(--primary-color);
+  padding: 5px 10px;
+  border-bottom: 4px solid var(--primary-color);
+  font-size: large;
+}
