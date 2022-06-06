@@ -57,3 +57,33 @@ header {
   border-bottom: 4px solid var(--primary-color);
   font-size: large;
 }
+
+/* Hero Section */
+.hero {
+  background-image: url(/assets/imgs/hero.jpg);
+  background-size: cover;
+  height: 250px;
+  display: flex;
+  position: relative;
+}
+.hero div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.hero div div {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 25px;
+}
+.hero div div h1 {
+  background-color: var(--primary-color);
+  font-size: xx-large;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+  color: var(--third-color);
+}
