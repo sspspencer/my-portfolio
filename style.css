@@ -60,7 +60,7 @@ header {
 
 /* Hero Section */
 .hero {
-  background-image: url(../assets/imgs/hero.jpg);
+  background-image: url(/hero.jpg);
   background-size: cover;
   height: 250px;
   display: flex;
@@ -136,7 +136,7 @@ header {
   height: 200px;
   position: relative;
   margin: 5px;
-  background-image: url(../assets/imgs/trial-generic-banner.jpg);
+  background-image: url(/trial-generic-banner.jpg);
   background-size: cover;
   opacity: 0.75;
   transition: 0.5s;
@@ -157,7 +157,7 @@ header {
   font-size: small;
 }
 .Run-buddy {
-  background-image: url(../assets/imgs/hero-bg.jpg);
+  background-image: url(/hero-bg.jpg);
   background-size: 100%;
   width: 100%;
   height: 400px;
