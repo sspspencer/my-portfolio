@@ -166,7 +166,9 @@ header {
   width: 100%;
   height: 100%;
 }
-
+.ShowGo {
+  background-image: url(images/CaptureShowGo1.PNG);
+}
 .web-app-container:hover {
   opacity: 1;
   transition: 0.5s;
