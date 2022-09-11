@@ -169,6 +169,9 @@ header {
 .ShowGo {
   background-image: url(images/CaptureShowGo1.PNG);
 }
+.upGrad {
+  background-image: url(images/upgrad.PNG);
+}
 .web-app-container:hover {
   opacity: 1;
   transition: 0.5s;
